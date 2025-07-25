@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
+.about, .members {
+  max-width: 800px;
+  margin: auto;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.member p {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: #333;
+}
+
+.member {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 280px;
+  text-align: center;
+}
+
+.member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.member h2 {
+  margin: 0.5rem 0 0.2rem;
+}
+
+.member ul {
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.person-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.person-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.person-card h2 {
+  margin: 0.3rem 0;
+}
+
+.person-card p {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.publications-list {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.publications-list h2, .publications-list h3 {
+  color: #003366;
+}
+
+.publications-list ul {
+  padding-left: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.publications-list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+img.two {
+  height: 60%;
+  width: 60%;
+}
