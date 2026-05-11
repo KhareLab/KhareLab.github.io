@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About the Lab</title>
+  <title>Khare Lab, Rutgers University</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -11,6 +11,7 @@
     <h1>Welcome to the Khare Lab</h1>
     <nav>
       <a href="index.html">About</a>
+      <a href="research.html">Research</a>
       <a href="people.html">People</a>
       <a href="publications.html">Publications</a>
       <a href="contact.html">Contact Us</a>
@@ -18,65 +19,57 @@
   </header>
   <main>
     <section class="about">
-      <h2>Our Research</h2>
+      <h2>Our Mission</h2>
       <p>
-       We design new and optimize existing enzymes using computational and experimental tools. Ultimately, we are interested in understanding the fundamental biophysical bases of enzyme function, and use this knowledge to engineer enzymes for applications aimed at addressing 21st-century challenges. 
-      </p>
-      <p>
-       These applications include biodegradation of pollutants and toxins, stabilizing enzymes in harsh abiological environments, extending the range of enzyme-catalyzed chemistries to non-biological reactions, the design of enzymatic "catalytic" therapeutics, and making cancer chemotherapy more specific.
-      </p>
-      <h4>Designing Proteases: Towards catalytic drugs</h4>
-      <img src="main_images/img1.jpg", class='two'>
-      <p>
-       Site-selective proteolytic cleavage is a ubiquitous post-translational modification involved in the transfer of biological information (e.g., via cascades) in many cellular processes and their dysfunction. Proteases with “dialed in” substrate selectivities would be ideal catalytic drugs designed to irreversibly neutralize their target substrates (e.g., viral coat proteins) if their substrate selectivity can be precisely controlled. 
-      </p>
-       <p>
-       No robust and general method is available for protease substrate specificity design, in spite of ~25 years of efforts by protein chemists and chemical engineers. 
-      </p>
-       <p>
-       Our approach is to develop a mechanism-guided biophysical framework that allows design for both positive and negative substrate specificity, and tightly couple it with high-throughput experimental testing using machine learning approaches 
-      </p>
-      <h4>Design of Stimulus-Responsive Enzymes</h4>
-      <img src="main_images/img2.png", class='two'>
-      <p>
-       Conventional Chemotherapy is limited by the lack of spatial and temporal control over the action of the toxic drug. Computationally designed “smart” enzymes, that are constitutively inactive but are activatable by a tumor-specific stimulus (MMP-2 protease) or light (via use of attached azobenzene dyes) are expected to overcome these limitations. We have obtained good starting leads straight from computational design (~10X switches) and developed high-throughput screening approaches.  We are working with the Deiters Lab (Univ of Pittsburg) and Drake lab (Univ of Minn) on testing these Designs and Methodology 
-      </p>
-      <h4>Protein Stabilization</h4>
-      <img src="main_images/img3.jpg", class='two'>
-      <p>
-       Currently available methods for protein stabilization, such as directed evolution and consensus mutagenesis, can be time- and labor-intensive and often involve extensive amino acid substitutions, which may impair the activity and/or selectivity of the enzyme.
+        We design new and optimize existing enzymes using computational and experimental tools. Our goal is to understand the fundamental biophysical bases of enzyme function and use that knowledge to engineer enzymes for biodegradation of pollutants and toxins, catalytic therapeutics, and chemistries beyond what biology has explored.
       </p>
       <p>
-       We have developed a computational design method (Rosetta-guided protein stapling, R-GPS) for enzyme stabilization that uses structure-based modeling to introduce covalent ‟staples” in a protein scaffold via genetically encodable noncanonical amino acids.
+        <a href="research.html">Read more about our research themes &rarr;</a>
       </p>
+
+      <h2>Research Themes</h2>
+      <p>Our work spans four interrelated themes:</p>
+      <ul>
+        <li><b><a href="research.html#selectivity">Designing enzyme selectivity</a></b>: engineering proteases for catalytic-drug applications (with the Gross lab) and designing stereodivergent biocatalysts (with the Fasan lab).</li>
+        <li><b><a href="research.html#stabilization">Protein and enzyme stabilization</a></b>: Rosetta-guided protein stapling for thermostable and solvent-tolerant biocatalysts.</li>
+        <li><b><a href="research.html#stimulus-responsive">Stimulus-responsive enzymes and enzyme assemblies</a></b>: smart enzymes gated by chemical or optical stimuli, and supramolecular fractal architectures.</li>
+        <li><b><a href="research.html#methods">Novel computational design methods</a></b>: design algorithms in Rosetta, constrained generative diffusion, and force-field development.</li>
+      </ul>
       <p>
-       This method was applied to obtain stapled variants of a stereoselective cyclopropanation biocatalyst featuring greatly increased thermostability and robustness to high concentrations of organic cosolvents
-       In collaboration with Fasan (Rochester) and Ando (Cornell) labs, and using iterative design-build-test-characterize cycles, we are now extending this minimally invasive strategy for protein stabilization to (1) a variety of other enzymes and proteins, and (2) to genetically encodable non-canonical amino acids that enable other kinds of crosslinking chemistries.
+        <a href="research.html">See our research page for details &rarr;</a>
       </p>
-      <h4>Novel Computational Design Methods</h4>
-      <img src="main_images/img4.png", class='two'>
-      <p>
-       We remain interested in the development of new computational design methods and refinement of existing methodology, as these are the foundations of our research program. 
-      </p>
-      <p>
-       Our efforts include introducing a new (Potts-model-based) modeling/design algorithm in Rosetta, a method for protein photosensitization using chemically crosslinked small molecules, and a method for designing nested (domain-inserted) proteins. 
-      </p>
-      <p>
-       Finally, we are pursuing force-field improvements in Rosetta, working on a project with David Case (Rutgers) to compare and productively combine energy evaluations using Rosetta and Amber approaches. 
-      </p>
-      <h4>Designing Supramolecular Enzyme Assemblies</h4>
-      <img src="main_images/img5.png", class='two'>
-      <p>
-       Enzymatic processes in nature are spatially organized. To develop the ability to similarly organize synthetic enzymatic pathways and develop efficient biosensors using enzymes (requiring a high surface area to volume ratio), we have developed a modular design approach that allows construction of supramolecular assemblies in response to chemical and/or optical stimuli. We have built fractal supramolecular topologies with extremely high surface area to volume ratios that organize component enzymes into hyperbranched dendritic supramolecular topologies. Although fractals are ubiquitous in nature, our studies represent the first instance of designing such topologies using protein self-assembly. 
-      </p>
-      <p>
-       We are applying this technology to develop protein assemblies for biodegradation by taking advantage of the high surface area:volume ratios (like a sponge).
-      </p>
+
+      <h2>Lab News</h2>
+      <ul>
+        <li>
+          <b>March 2026:</b> Jonathan Ash successfully defends his PhD. Congratulations, Dr. Ash! Alyssa Lee (1st year, Quantitative Biomedicine PhD program) joins the lab, jointly supervised with Rohan Maddamsetti. Welcome!
+        </li>
+        <li>
+          <b>January 2026:</b> Our paper on the design of generalist cyclopropanases with stereodivergent selectivity is published in
+          <em><a href="https://doi.org/10.1038/s41467-026-68327-1" target="_blank" rel="noopener">Nature Communications</a></em>.
+          Congratulations Zhuofan, Mary, Xinkun, Thakshila, Jermaine, and the Fasan lab.
+        </li>
+        <li>
+          <b>November 2025:</b> Jonathan Ash's preprint on graph attention with structural features for predicting functional protein-interface sequences is posted to
+          <em><a href="https://doi.org/10.1101/2025.11.04.686550" target="_blank" rel="noopener">bioRxiv</a></em>.
+          Joint work with the Whitehead lab.
+        </li>
+        <li>
+          <b>October 2025:</b> "Constrained Diffusion for Protein Design with Hard Structural Constraints" is accepted at ICLR 2026 and posted to
+          <em><a href="https://doi.org/10.1101/2025.10.15.682365" target="_blank" rel="noopener">bioRxiv</a></em>.
+          Congratulations Jacob, Austin, Jingyi, and the Fioretto group.
+        </li>
+        <li>
+          <b>November 2024:</b> Priscilla's preprint on synergistic multi-pronged inhibition of &alpha;-synuclein aggregation by HtrA1 is posted to
+          <em><a href="https://doi.org/10.1101/2024.11.25.624572" target="_blank" rel="noopener">bioRxiv</a></em>.
+          Joint work with the Baum lab.
+        </li>
+      </ul>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Khare Lab</p>
+    <p>&copy; 2026 Khare Lab</p>
   </footer>
 </body>
 </html>
