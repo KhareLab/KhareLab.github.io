@@ -21,7 +21,7 @@
     <section class="about">
       <h2>Overview</h2>
       <p>
-        We design new and optimize existing enzymes using computational and experimental tools. Ultimately, we are interested in understanding the fundamental biophysical bases of enzyme function and use this knowledge to engineer enzymes for applications including biodegradation of pollutants and toxins, stabilization of enzymes for harsh environments, extension of enzymatic chemistries beyond what biology has explored, and the design of enzymatic catalytic therapeutics.
+        We design new and optimize existing enzymes using computational and experimental tools. Ultimately, we are interested in understanding the fundamental biophysical bases of enzyme function and use this knowledge to engineer enzymes for applications including biodegradation of pollutants and toxins, stabilization of enzymes for harsh environments, extension of enzymatic chemistries beyond what biology has explored, and the design of enzymatic catalytic therapeutics. Our work spans collaborations with academic and industrial partners, including the <a href="https://sabreproject.org/" target="_blank" rel="noopener">SaBRe (Sargassum BioRefinery)</a> consortium, which focuses on enzyme engineering for marine biomanufacturing.
       </p>
 
       <h2 id="selectivity">Designing Enzyme Selectivity</h2>
@@ -37,12 +37,13 @@
       <p>
         Site-selective proteolytic cleavage is a ubiquitous post-translational modification, and proteases with "dialed-in" substrate selectivities would be ideal catalytic drugs, capable of irreversibly neutralizing target substrates such as viral coat proteins. We have developed a mechanism-guided biophysical framework, more recently extended with a structure-aware graph convolutional network, that allows design for both positive and negative substrate specificity, coupled with high-throughput experimental testing.
       </p>
+      <p>
+        Looking ahead, we envision designed proteases as a selective catalytic module in protein-editing systems, paired with custom-designed peptide-binding domains as the recognition module. Combining these two designable components delivers a one-two punch for selective protein targeting.
+      </p>
       <p><b>Key papers:</b>
         <a href="https://doi.org/10.1073/pnas.1805256116" target="_blank" rel="noopener">Pethe 2019</a>,
         <a href="https://doi.org/10.1073/pnas.2303590120" target="_blank" rel="noopener">Lu 2023</a>,
-        <a href="https://doi.org/10.1016/j.jmb.2016.11.031" target="_blank" rel="noopener">Pethe 2017</a>,
-        <a href="https://doi.org/10.1093/protein/gzx005" target="_blank" rel="noopener">Yachnin &amp; Khare 2017</a>,
-        <a href="https://doi.org/10.1073/pnas.2116097119" target="_blank" rel="noopener">Yachnin 2022</a>.
+        <a href="https://doi.org/10.1016/j.jmb.2016.11.031" target="_blank" rel="noopener">Pethe 2017</a>.
       </p>
 
       <h3>Protease-catalyzed polymer and peptide synthesis</h3>
@@ -71,10 +72,16 @@
         <em><a href="https://doi.org/10.1073/pnas.1708907114" target="_blank" rel="noopener">Proc. Natl. Acad. Sci. USA</a></em> 114:12472&ndash;12477 (2017).
       </small></p>
       <p>
-        Currently available methods for protein stabilization, such as directed evolution and consensus mutagenesis, can be labor-intensive and often involve extensive amino-acid substitutions that may impair activity or selectivity. We have developed a computational design method, Rosetta-guided protein stapling (R-GPS), that uses structure-based modeling to introduce covalent "staples" into a protein scaffold via genetically encodable noncanonical amino acids.
+        Currently available methods for protein stabilization, such as directed evolution and consensus mutagenesis, can be labor-intensive and often involve extensive amino-acid substitutions that may impair activity or selectivity. We are developing computational methods that combine physics-based modeling and AI/ML approaches to identify minimally invasive modifications that stabilize proteins and enzymes against thermal denaturation and nonaqueous environments.
       </p>
       <p>
-        Stapled variants of a stereoselective cyclopropanation biocatalyst show greatly increased thermostability and robustness to high concentrations of organic cosolvents. In collaboration with the Fasan (Rochester) and Ando (Cornell) labs, and using iterative design-build-test-characterize cycles, we are extending R-GPS to a wider range of enzymes and to noncanonical amino acids that enable other crosslinking chemistries.
+        Our physics-based approach, Rosetta-guided protein stapling (R-GPS), uses structure-based modeling to introduce covalent "staples" into a protein scaffold via genetically encodable noncanonical amino acids. Stapled variants of a stereoselective cyclopropanation biocatalyst show greatly increased thermostability and robustness to high concentrations of organic cosolvents. 
+      </p>
+      <p>
+        We complement these physics-based methods with AI/ML approaches that learn structural and sequence features predictive of protein stability, robustness to mutation, and tolerance to nonaqueous environments. These approaches are increasingly integrated with our physics-based design pipeline.
+      </p>
+      <p>
+        We are also part of the <a href="https://sabreproject.org/" target="_blank" rel="noopener">SaBRe (Sargassum BioRefinery)</a> consortium, a Schmidt Sciences-funded virtual research center that aims to transform Sargassum seaweed into a renewable feedstock for biomanufacturing. In this context, we are engineering enzymes that operate stably in marine conditions and tolerate the salinity, variable temperatures, and complex substrate mixtures characteristic of seaweed-derived feedstocks.
       </p>
       <p><b>Key papers:</b>
         <a href="https://doi.org/10.1073/pnas.1708907114" target="_blank" rel="noopener">Moore 2017</a>,
@@ -92,12 +99,15 @@
 
       <h3>Smart enzymes gated by chemical or optical stimuli</h3>
       <p>
-        Conventional chemotherapy is limited by the lack of spatial and temporal control over the action of the toxic drug. Computationally designed enzymes that are constitutively inactive but activatable by a tumor-specific stimulus (such as MMP-2 protease) or by light (via attached azobenzene dyes) are expected to overcome these limitations. We have obtained ~10X switches straight from computational design and developed high-throughput screening approaches to improve them. We collaborate with the Deiters Lab (Univ. of Pittsburgh) and Drake Lab (Univ. of Minnesota) on testing these designs.
+        Conventional chemotherapy is limited by the lack of spatial and temporal control over the action of the toxic drug. Computationally designed enzymes that are constitutively inactive but activatable by a tumor-specific stimulus (such as MMP-2 protease) or by light (via attached azobenzene dyes or genetically encoded photoswitchable amino acids) are expected to overcome these limitations. We have obtained ~10X switches straight from computational design and developed high-throughput screening approaches to improve them, including designed proenzymes activated by tumor proteases. We collaborate with the Deiters Lab (Univ. of Pittsburgh) on optical control of protein function and the Drake Lab (Univ. of Minnesota) on testing these designs.
       </p>
       <p><b>Key papers:</b>
+        <a href="https://doi.org/10.1093/protein/gzx005" target="_blank" rel="noopener">Yachnin &amp; Khare 2017</a>,
         <a href="https://doi.org/10.1021/jacs.7b08709" target="_blank" rel="noopener">Blacklock 2018</a>,
         <a href="https://doi.org/10.1002/cptc.201900016" target="_blank" rel="noopener">Yasuike 2019</a>,
-        <a href="https://doi.org/10.1002/9783527827626.ch43" target="_blank" rel="noopener">Dolan &amp; Khare 2022</a>.
+        <a href="https://doi.org/10.1002/9783527827626.ch43" target="_blank" rel="noopener">Dolan &amp; Khare 2022</a>,
+        <a href="https://doi.org/10.1073/pnas.2116097119" target="_blank" rel="noopener">Yachnin 2022</a>,
+        <a href="https://doi.org/10.1021/acsomega.3c03512" target="_blank" rel="noopener">Janosko 2023</a>.
       </p>
 
       <img src="main_images/img5.png" alt="Protein fractal supramolecular assembly" class="two">
@@ -116,20 +126,37 @@
       </p>
 
       <h2 id="methods">Novel Computational Design Methods</h2>
-      <img src="main_images/img4.png" alt="Computational design pipeline" class="two">
-      <p><small>Figure adapted from Khare et al.,
-        <em><a href="https://doi.org/10.1038/nchembio.777" target="_blank" rel="noopener">Nature Chemical Biology</a></em> 8:294&ndash;300 (2012).
-      </small></p>
       <p>
-        New computational design methods underpin all of our research. Our methodological contributions include a Potts-model-based modeling and design algorithm in Rosetta, methods for designing nested (domain-inserted) proteins and metalloproteins with noncanonical amino acids, force-field improvements developed jointly with the Case lab (Rutgers), and constrained-diffusion approaches that enforce hard structural constraints during generative protein design.
+        New computational design methods underpin all of our research, spanning physics-based modeling, AI/ML-driven design, and the integration of the two.
       </p>
+
+      <h3>Physics-based modeling and design with unnatural amino acids</h3>
+      <p>
+        In Rosetta, we have introduced a Potts-model-based modeling and design algorithm, methods for designing nested (domain-inserted) proteins, and methods for designing metalloproteins and other proteins with genetically encodable noncanonical (unnatural) amino acids. We pursue force-field improvements jointly with the Case lab (Rutgers), reconciling Rosetta and Amber energy evaluations.
+      </p>
+
+      <h3>Custom neural networks and language models for protein design</h3>
+      <p>
+        We develop custom neural networks and language models tailored to protein-design problems, including graph attention networks and graph convolutional networks for predicting functional sequences and substrate specificity at protein interfaces, and constrained generative diffusion approaches that enforce hard structural constraints during protein design.
+      </p>
+
+      <h3>Covalent protein design</h3>
+      <p>
+        We design covalent protein architectures, including internal staples and crosslinks that stabilize protein scaffolds, and covalent peptide modifiers that selectively engage target proteins for therapeutic applications.
+      </p>
+
       <p><b>Key papers:</b>
         <a href="https://doi.org/10.1038/nchembio.777" target="_blank" rel="noopener">Khare 2012</a>,
         <a href="https://doi.org/10.1038/nature12443" target="_blank" rel="noopener">Tinberg &amp; Khare 2013</a>,
+        <a href="https://doi.org/10.1021/ja403503m" target="_blank" rel="noopener">Mills 2013 (UAA metalloprotein)</a>,
         <a href="https://doi.org/10.1002/prot.25445" target="_blank" rel="noopener">Blacklock 2018 (nested proteins)</a>,
-        <a href="https://doi.org/10.1038/s41592-020-0848-2" target="_blank" rel="noopener">Leman 2020</a>,
+        <a href="https://doi.org/10.1038/s41592-020-0848-2" target="_blank" rel="noopener">Leman 2020 (Rosetta methods)</a>,
         <a href="https://doi.org/10.1021/acs.jctc.8b00303" target="_blank" rel="noopener">Rubenstein 2018 (Amber/Rosetta)</a>,
-        <a href="https://doi.org/10.1101/2025.10.15.682365" target="_blank" rel="noopener">Christopher 2026</a>.
+        <a href="https://doi.org/10.1073/pnas.2303590120" target="_blank" rel="noopener">Lu 2023 (graph CNN)</a>,
+        <a href="https://doi.org/10.1101/2025.11.04.686550" target="_blank" rel="noopener">Ash 2025 (graph attention)</a>,
+        <a href="https://doi.org/10.1101/2025.10.15.682365" target="_blank" rel="noopener">Christopher 2026 (constrained diffusion)</a>,
+        <a href="https://doi.org/10.1073/pnas.1708907114" target="_blank" rel="noopener">Moore 2017 (stapling)</a>,
+        <a href="https://doi.org/10.1021/acschembio.4c00878" target="_blank" rel="noopener">Emanuelson 2025 (covalent modifiers)</a>.
       </p>
     </section>
   </main>
